@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MyProfileSite.Shared\MyProfileSite.Shared.csproj" />
+    <ProjectReference Include="..\MyProfileSite.Core\MyProfileSite.Core.csproj" />
+    <ProjectReference Include="..\MyProfileSite.Data\MyProfileSite.Data.csproj" />
+  </ItemGroup>
+
+</Project>
